@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/khach_hang_home">
+
+    <fragment
+        android:id="@+id/khach_hang_home"
+        android:name="com.example.fastfood.ui.home.HomeKhachHang"
+        android:label="@string/title_home"
+        tools:layout="@layout/khach_hang_home" />
+
+    <fragment
+        android:id="@+id/khach_hang_gio_hang"
+        android:name="com.example.fastfood.ui.GioHang.GioHangKhachHang"
+        android:label="@string/title_gio_hang"
+        tools:layout="@layout/khach_hang_gio_hang" />
+
+    <fragment
+        android:id="@+id/khach_hang_hoa_don"
+        android:name="com.example.fastfood.ui.DonHang.HoaDonKhachHang"
+        android:label="@string/title_hoa_don"
+        tools:layout="@layout/khach_hang_hoa_don" />
+
+</navigation>

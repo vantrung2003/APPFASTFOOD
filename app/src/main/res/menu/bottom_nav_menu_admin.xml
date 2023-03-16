@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/admin_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/admin_thong_ke"
+        android:icon="@drawable/ic_baseline_signal_cellular_alt_24"
+        android:title="@string/title_thong_ke" />
+
+    <item
+        android:id="@+id/admin_doanh_thu"
+        android:icon="@drawable/ic_baseline_moving_24"
+        android:title="@string/title_doanh_thu" />
+
+    <item
+        android:id="@+id/admin_ca_nhan"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/title_ca_nhan" />
+</menu>

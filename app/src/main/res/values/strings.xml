@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FastFooD</string>
+    <string name="title_activity_main_khach_hang">MainKhachHang</string>
+    <string name="title_home">Home</string>
+    <string name="title_gio_hang">Giỏ Hàng</string>
+    <string name="title_hoa_don">Hóa Đơn</string>
+    <string name="title_thong_ke">Thống Kê</string>
+    <string name="title_doanh_thu">Doanh Thu</string>
+    <string name="title_ca_nhan">Cá Nhân</string>
+    <string name="title_activity_main_admin">MainAdmin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

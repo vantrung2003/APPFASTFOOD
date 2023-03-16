@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/item_lv_bill_fd_ten"
+        android:textSize="16dp"
+        android:layout_marginLeft="30dp"
+        android:text="Ten"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:id="@+id/item_lv_bill_fd_sl"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:text="sl"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_weight="1.2"
+        android:id="@+id/item_lv_bill_fd_gia"
+        android:layout_marginRight="40dp"
+        android:gravity="right"
+
+        android:text="gia"/>
+</LinearLayout>

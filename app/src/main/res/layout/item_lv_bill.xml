@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_lv_bill_bg"
+    app:cardCornerRadius="10dp">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginVertical="20dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="20dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Ten Ban"
+               android:layout_weight="2"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:textSize="20dp"
+               android:id="@+id/item_lv_bill_soBan"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="40dp"
+               android:text="Date"
+               android:gravity="right"
+               android:layout_weight="1"
+               android:textSize="20dp"
+               android:id="@+id/item_lv_bill_ngay"/>
+       </LinearLayout>
+       <ListView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_margin="20dp"
+           android:id="@+id/item_lv_bill_lv"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Tổng"
+               android:layout_weight="2"
+               android:gravity="center"
+               android:textStyle="bold"
+               android:textSize="20dp" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="tienef"
+               android:gravity="right"
+               android:layout_weight="1"
+               android:textSize="20dp"
+               android:layout_marginEnd="40dp"
+               android:id="@+id/item_lv_bill_tong"/>
+       </LinearLayout>
+
+   </LinearLayout>
+</androidx.cardview.widget.CardView>

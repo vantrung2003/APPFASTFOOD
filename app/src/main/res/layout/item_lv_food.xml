@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#FCC9C9"
+    app:cardCornerRadius="12dp"
+    android:layout_marginHorizontal="40dp"
+    android:id="@+id/item_lv_food_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/backgroundsplash"
+            android:scaleType="centerCrop"
+            android:layout_marginVertical="5dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/item_lv_food_img"
+            />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên món ăn"
+                android:id="@+id/item_lv_food_tv_name"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="26dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textColor="#FE9009"
+                    android:layout_gravity="center"
+                    android:text="$" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="9.8"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="left|center"
+                    android:id="@+id/item_lv_food_tv_price"/>
+
+                <Button
+                    android:id="@+id/item_lv_food_btn_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="top"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FE9009"
+                    android:text="+ ADD"
+                    android:textSize="8dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:text="Đã bán: 1000"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:gravity="right"
+                    android:layout_marginEnd="2dp"
+                    android:id="@+id/item_lv_food_tv_db"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

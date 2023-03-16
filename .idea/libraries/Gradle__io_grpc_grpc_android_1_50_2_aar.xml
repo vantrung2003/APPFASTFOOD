@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: io.grpc:grpc-android:1.50.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AndroidSDK/caches/transforms-3/e8f5bd7bac7da7f959f07508ab1c9a81/transformed/grpc-android-1.50.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidSDK/caches/transforms-3/e8f5bd7bac7da7f959f07508ab1c9a81/transformed/grpc-android-1.50.2/res" />
+      <root url="file://$USER_HOME$/AndroidSDK/caches/transforms-3/e8f5bd7bac7da7f959f07508ab1c9a81/transformed/grpc-android-1.50.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../AndroidSDK/caches/transforms-3/e8f5bd7bac7da7f959f07508ab1c9a81/transformed/grpc-android-1.50.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../AndroidSDK/caches/transforms-3/e8f5bd7bac7da7f959f07508ab1c9a81/transformed/grpc-android-1.50.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../AndroidSDK/caches/transforms-3/e8f5bd7bac7da7f959f07508ab1c9a81/transformed/grpc-android-1.50.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dc47f586f08d1fd7fd5c6e95e1ae353c/transformed/grpc-android-1.50.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/dc47f586f08d1fd7fd5c6e95e1ae353c/transformed/grpc-android-1.50.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AndroidSDK/caches/modules-2/files-2.1/io.grpc/grpc-android/1.50.2/4b39126c7f60c50bf33866561d83950d11eff1f9/grpc-android-1.50.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../AndroidSDK/caches/modules-2/files-2.1/io.grpc/grpc-android/1.50.2/4b39126c7f60c50bf33866561d83950d11eff1f9/grpc-android-1.50.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-android/1.50.2/4b39126c7f60c50bf33866561d83950d11eff1f9/grpc-android-1.50.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AndroidSDK/caches/modules-2/files-2.1/io.grpc/grpc-android/1.50.2/a82eed1e665cae7725661a53962bc176061bca70/grpc-android-1.50.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../AndroidSDK/caches/modules-2/files-2.1/io.grpc/grpc-android/1.50.2/a82eed1e665cae7725661a53962bc176061bca70/grpc-android-1.50.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-android/1.50.2/a82eed1e665cae7725661a53962bc176061bca70/grpc-android-1.50.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
