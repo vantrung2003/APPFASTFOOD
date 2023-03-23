@@ -13,7 +13,6 @@ public class DbHelper extends SQLiteOpenHelper {
     public DbHelper(Context context) {
         super(context, dbName, null, dbVersion);
     }
-
     @Override
     public void onCreate(SQLiteDatabase db) {
 
