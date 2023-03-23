@@ -15,7 +15,7 @@ public class DbHelper extends SQLiteOpenHelper {
     }
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+// database
         String createTableAdmin = "create table Admin (" +
                 "id text PRIMARY KEY, " +
                 "password text NOT NULL)";
