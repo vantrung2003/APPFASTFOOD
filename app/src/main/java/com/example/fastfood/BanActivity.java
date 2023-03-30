@@ -18,7 +18,7 @@ public class BanActivity extends AppCompatActivity {
 
     GridView gridView;
     TableDao tableDao;
-
+ // Đặt bàn actuvity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
