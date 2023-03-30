@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentAdmin.AdminDoanhThuFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.1"
+        android:background="@drawable/backgroundsplash" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:src="@drawable/doanhthu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="DOANH THU"
+                android:textColor="#8F7575"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:hint="Đến Ngày"
+                android:id="@+id/doanhthu_edt_denngay"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingStart="45dp"
+                android:focusable="false"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/custom_input" />
+
+            <EditText
+                android:id="@+id/doanhthu_edt_tungay"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/custom_input"
+                android:focusable="false"
+                android:hint="Từ Ngày"
+                android:paddingStart="45dp" />
+
+            <ImageView
+                android:id="@+id/doanhthu_img_tungay"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/dateicon" />
+
+            <ImageView
+                android:id="@+id/doanhthu_img_denngay"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:src="@drawable/dateicon" />
+        </RelativeLayout>
+
+
+        <Button
+            android:backgroundTint="#ffde03"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:id="@+id/doanhthu_btn_tinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doanh Thu"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:textColor="#E30707"
+            android:layout_gravity="center"
+            android:id="@+id/doanhthu_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
