@@ -47,10 +47,9 @@ public class AdapterBaskets extends ArrayAdapter<DvsF> {
         ViewHolder holder = new ViewHolder();
         a++;
         if (convertView == null) {
-<<<<<<< HEAD
+
             //ánh xạ
-=======
->>>>>>> origin/master
+
             convertView = inflater.inflate(R.layout.item_lv_baskets, null);
             holder.tvName = (TextView) convertView.findViewById(R.id.item_lv_baskets_tv_name);
             holder.tvnSl = (TextView) convertView.findViewById(R.id.item_lv_baskets_edt_sl);
@@ -64,10 +63,9 @@ public class AdapterBaskets extends ArrayAdapter<DvsF> {
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
-<<<<<<< HEAD
+
         // xử lý danh sách hiển thị list giao diện người dùng
-=======
->>>>>>> origin/master
+
         DvsF obj = objects.get(position);
         if (obj.isCheck()) {
             holder.tvXoa.setVisibility(View.GONE);
